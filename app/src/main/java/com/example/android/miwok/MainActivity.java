@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent numberView = new Intent(MainActivity.this,NumbersActivity.class);
                 startActivity(numberView);
-                Toast.makeText(v.getContext(),"Open the list of numbers", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(v.getContext(),"Open the list of numbers", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent familyView = new Intent(MainActivity.this,FamilyMembersActivity.class);
                 startActivity(familyView);
-                Toast.makeText(v.getContext(),"Open the list of family", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(v.getContext(),"Open the list of family", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent colorsView = new Intent(MainActivity.this,ColorsActivity.class);
                 startActivity(colorsView);
-                Toast.makeText(v.getContext(),"Open the list of colors", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(v.getContext(),"Open the list of colors", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent phrasesView = new Intent(MainActivity.this,PhrasesActivity.class);
                 startActivity(phrasesView);
-                Toast.makeText(v.getContext(),"Open the list of phrases", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(v.getContext(),"Open the list of phrases", Toast.LENGTH_SHORT).show();
             }
         });
     }
