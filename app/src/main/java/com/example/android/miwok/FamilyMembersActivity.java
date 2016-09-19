@@ -15,14 +15,16 @@ public class FamilyMembersActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("red","weṭeṭṭi"));
-        words.add(new Word("green","chokokki"));
-        words.add(new Word("brown","ṭakaakki"));
-        words.add(new Word("gray","ṭopoppi"));
-        words.add(new Word("black","kululli"));
-        words.add(new Word("white","kelelli"));
-        words.add(new Word("dusty yellow","ṭopiisә"));
-        words.add(new Word("mustard yellow","chiwiiṭә"));
+        words.add(new Word("father","әpә"));
+        words.add(new Word("mother","әṭa"));
+        words.add(new Word("son","angsi"));
+        words.add(new Word("daughter","tune"));
+        words.add(new Word("older brother","taachi"));
+        words.add(new Word("younger brother","chalitti"));
+        words.add(new Word("older sister","teṭe"));
+        words.add(new Word("younger sister","kolliti"));
+        words.add(new Word("grandmother","ama"));
+        words.add(new Word("grandfather","paapa"));
 
         WordAdapter itemAdapter = new WordAdapter (this, words);
 
