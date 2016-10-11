@@ -17,9 +17,10 @@ public class Word {
 
     private int mAudioSourceID;
 
-    public  Word (String defaultTranslation, String miwokTranslation){
+    public  Word (String defaultTranslation, String miwokTranslation, int audioResource){
         mMiwokTranslation = defaultTranslation;
         mDefaultTranslation = miwokTranslation;
+        mAudioSourceID = audioResource;
     }
 
     public Word (String mMiwokTranslation, String mDefaultTranslation, int resourceID, int audioSourceID) {
